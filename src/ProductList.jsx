@@ -331,7 +331,7 @@ function ProductList({ onHomeClick }) {
           <div>
             <a href="#" onClick={(e) => handleCartClick(e)} style={styleA}>
               <h1 className="cart">
-                {totalQuantity}
+                <span>{totalQuantity}</span>                
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 256 256"
